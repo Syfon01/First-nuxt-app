@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <NavBar />
-    <nuxt />
+    <NavBar/>   <nuxt />
   </div>
 </template>
 
@@ -9,7 +8,7 @@
 import NavBar from '~/components/NavBar'
 export default {
   components: {
-    NavBar
+    NavBar,
   }
 }
 </script>

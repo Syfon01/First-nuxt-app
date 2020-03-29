@@ -1,18 +1,9 @@
 <template>
   <div id="app">
-    <NavBar />
     <nuxt />
   </div>
 </template>
 
-<script>
-import NavBar from '~/components/NavBar'
-export default {
-  components: {
-    NavBar
-  }
-}
-</script>
 <style>
 html {
   -webkit-text-size-adjust: 100%;
@@ -248,5 +239,4 @@ select::ms-expand {
 }
 .errorMessage {
   color: red;
-}
-</style>
+}</style>
