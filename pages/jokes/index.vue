@@ -1,13 +1,21 @@
 <template>
-  <div class="">
-    <h1>Welcome to Dad Jokes</h1>
+  <div class="container">
+    <h2>Jokes all the way</h2>
   </div>
 </template>
 <script>
 export default {
+  data() {
+    return {
+      jokes: []
+    }
+  },
+  created() {
+
+  },
   head() {
     return {
-      title: 'Welcome to Dad Jokes',
+      title: 'Dad Jokes page',
       meta: [
         {
           hid: 'description',
