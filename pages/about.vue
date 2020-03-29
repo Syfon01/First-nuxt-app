@@ -6,21 +6,18 @@
 </template>
 
 <script>
-  export default {
-    head(){
-      return {
-        title: 'About Dad Jokes',
-        meta: {
+export default {
+  head() {
+    return {
+      title: 'About Dad Jokes',
+      meta: [
+        {
           hid: 'description',
           name: 'description',
           content: 'Best place for corny dad jokes'
         }
-
-      }
+      ]
     }
   }
+}
 </script>
-
-<style lang="scss" scoped>
-
-</style>
