@@ -44,4 +44,7 @@ a {
   padding: 1rem 2rem;
   background: #fff;
 }
+.text-gray {
+  color: #666;
+}
 </style>

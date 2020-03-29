@@ -31,7 +31,7 @@ export default {
   align-content: center;
   border: 1px dotted #ccc;
   margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  padding: 0.2rem;
 }
 .title {
   color: #526488;
@@ -41,12 +41,13 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2rem;
 }
 ul a {
   display: inline-block;
   background: #333;
   color: #fff;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
   margin-right: 0.5rem;
 }
 </style>

@@ -1,6 +1,8 @@
 <template>
   <div class="">
-    <h1>Welcome to Dad Jokes</h1>
+    <h2 class="text-gray">
+      Welcome to Dad Jokes by Syfon. Click on Jokes for corny dad jokes
+    </h2>
   </div>
 </template>
 <script>

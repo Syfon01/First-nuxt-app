@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>About Dad Jokes</h1>
-    <p>This is the about page</p>
+    <p>This is a simple Joke project by Syfon to learn Nuxtjs</p>
   </div>
 </template>
 
